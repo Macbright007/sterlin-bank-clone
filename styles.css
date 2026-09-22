@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Albert Sans", sans-serif;
+}
+
+nav {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.innerNav {
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.innerNav > img {
+  width: 130px;
+}
+
+.genLayout {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.navItems {
+  /* border: 2px solid; */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 1rem;
+}
+
+.navItems > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #c36;
+}
+
+.search {
+  border-bottom: 2px solid #c36;
+  /* border: 2px solid #c36; */
+  display: flex;
+  width: 20px;
+  gap: 5px;
+  align-items: center;
+}
+
+.search:hover {
+  width: 13%;
+  padding: 0 5px;
+  border-block: 2px solid #c36;
+  border-radius: 10px;
+}
+
+.search > input {
+  width: 100%;
+  padding: 0.3rem 1rem;
+  border: none;
+  outline: none;
+}
+
+/* styling for hero section  */
+.sec-one {
+  background-image: url("https://sterling.ng/wp-content/uploads/2026/02/shutterstock_522456049.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-block: 5rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content {
+  width: 60%;
+}
+
+.hero-content > h5 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: #d92028;
+}
+
+.hero-content > h1 {
+  font-size: 80px;
+  color: #636363;
+  font-weight: 900;
+}
+
+.hero-content > p {
+  color: #7a7a7a;
+  font-size: 16px;
+  margin-bottom: 14.4px;
+  width: 550px;
+}
+
+.hero-content > p > span {
+  font-weight: 800;
+}
+
+.btn {
+  background-color: #d92028;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.hero > img {
+  width: 400px;
+  height: 80vh;
+}
+
+/* styling for section two  */
+.sec-two {
+  padding-block: 4rem;
+  background-color: #a31920;
+}
+
+.banking-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banking-option-content {
+  color: #fff;
+}
+
+.banking-option-content > h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.banking-option-content > p {
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.banking-option-content > button{
+  width: 50%;
+  border: none;
+  padding: .6rem 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #d9212a;
+  border-radius: 12px;
+}
+
+.option-box{
+  width: 40%;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.box{
+  background-color: #fff;
+  height: 35vh;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  flex-direction: column;
+}
+
+.box > h5{
+  text-transform: capitalize  ;
+}

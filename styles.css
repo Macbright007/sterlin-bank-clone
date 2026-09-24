@@ -151,10 +151,10 @@ nav {
   margin: 1rem 0;
 }
 
-.banking-option-content > button{
+.banking-option-content > button {
   width: 50%;
   border: none;
-  padding: .6rem 1rem;
+  padding: 0.6rem 1rem;
   text-transform: uppercase;
   color: #fff;
   font-size: 14px;
@@ -163,7 +163,7 @@ nav {
   border-radius: 12px;
 }
 
-.option-box{
+.option-box {
   width: 40%;
   display: grid;
   /* grid-template-columns: 1fr 1fr; */
@@ -171,7 +171,7 @@ nav {
   gap: 15px;
 }
 
-.box{
+.box {
   background-color: #fff;
   height: 35vh;
   border-radius: 20px;
@@ -182,6 +182,64 @@ nav {
   flex-direction: column;
 }
 
-.box > h5{
-  text-transform: capitalize  ;
+.box > h5 {
+  text-transform: capitalize;
 }
+
+/* styling for sec three  */
+
+.sec-three {
+  background-image: url("https://sterling.ng/wp-content/uploads/2026/02/clipboard-image-1770036530.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  padding-block: 5rem;
+  border: 2px solid;
+}
+
+.grid-options{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-card-option{
+  border-radius: 3rem 2rem;
+  /* height: 50vh; */
+  box-shadow: .1rem .1rem 15px grey;
+}
+
+.grid-card-option:nth-child(even){
+    border-radius: 2rem 3rem;
+}
+
+.grid-card-option > img{
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 3rem;
+}
+
+.card-content{
+  padding: .4rem 2rem;
+}
+
+.card-content > h1{
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.card-content > p{
+  font-size: 13px;
+  margin-block: .5rem;
+}
+
+.card-content > a{
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+  font-size: 13px;
+  text-decoration: none;
+  color: #a31920;
+  font-weight: 800;
+} 
